@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs")
 const dotenv = require("dotenv").config()
 
 const jwt = require("jsonwebtoken")
-const secretkey = process.env.jwtsecretkey
+const secretkey = process.env.jwtsecretkey 
 const protectedRoute= require("./protectedRoute")
 
 
